@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #032154;
+    padding: 0 112px 0 112px;
+    position: relative; 
+}
+.lang i{
+    color:white
+}
+.lang span{
+    color:white;
+}
+.option{
+   display: inline-block;
+   /* position: relative; */
+}
+.option select{
+    border:0px;
+    outline:0px;
+    color:white;
+    background-color:transparent;
+    position: relative;
+   
+}
+.option select::before{
+    content:"";
+    font-size: 13px;
+    padding: 20px;
+    color:white;
+    background-color: yellow;
+    position: absolute;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.list span{
+    color:white;
+}
+.list ul{
+    list-style: none;
+    display: flex;
+}
+.list ul li{
+    margin-left: 13px;
+    display: flex;
+   margin-top: 20px;
+}
+.list ul li a{
+    color:white;
+}
+.call{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+   
+}
+.call a{
+    color: black;
+}
+.call a:hover{
+    color:#f2db18;
+    transition: 0.6s 0s ease;
+}
+.call h2 a{
+    color:#f2db18;
+    text-decoration: none;
+}
+.call i{
+    color:#f2db18;
+}
+.call .massage a:hover{
+    color:#f2db18;
+    transition: 0.6s 0s ease;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cover2{
+    margin-top: 30px;
+    background-color: #032154;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.cover2 div ul{
+    list-style: none;
+   
+    display: flex;
+    padding: 20px 22px;
+}
+.cover2 div ul li{
+    margin-left: 60px;
+
+}
+.cover2 div ul li a{
+    color: white;
+    text-decoration: none;
+}
+.cover2 div ul li a:hover{
+    background-color: #f2db18;
+   width: 30%;
+   height: 30px;
+    transition: 0.7s 0s ease;
+    padding: 22px 22px;
+}
+.cover2 div ul li a:active{
+    background-color: #f2db18;
+     transition: 0.7s 0s ease;
+     padding: 22px 22px;
+}
+.sign .search{
+    margin-right: 120px;
+    color: white;
+}
+.sign span a{
+    margin-right:187px ;
+    color: white;
+    background-color: #f2db18;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.sign span a:hover{
+    background-color: black;
+    transition: 0.6s 0s ease;
+}
+.photo{
+    position: relative;
+    background-image: url('../image/banner.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.photo .photo2 img{
+   position: absolute;
+   right: 10%;
+   top: 8%;
+  
+}
+.photo .photo2 .person{
+    position: absolute;
+    top: 20%;
+    left:6%;
+}
+.photo .photo2 .person h1,p,a{
+  color: white;
+}
+.photo .photo2 .person h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.photo .photo2 .person a{
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 25px;
+ font-weight: bold;
+}
+.photo .photo2 .person hr{
+    position: absolute;
+    left: 23%;
+    top: 88% ;
+    background-color: #f2db18;
+    width: 16%;
+}
+.about{
+    display: flex;
+    padding: 83px;
+}
+.about .about1 p:nth-child(1){
+   color: #f2db18;
+}
+.about .about1 p:nth-child(2){
+  color: #032154;
+ }
+ .about .about1 p:nth-child(3){
+    color: black;
+ }
+ .about .about1 p:nth-child(4){
+    color: #f2db18;
+ }
+ .about .about1 p:nth-child(5){
+    color: black;
+ }
+ .about .about1 span{
+    color: #f2db18;
+ }
+ .about .about1 a{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+    background-color: #f2db18;
+    padding: 13px 30px;
+    text-decoration: none;
+ }
+ .about .about1 a:hover{
+   background-color: black;
+   transition: 0.7s 0s ease;
+ }
+ .about .about2 img{
+   width: 500px;
+   margin-left: 20%;
+ }
+ .service p:nth-child(1){
+    color: #f2db18;
+ }
+ .service p:nth-child(2){
+    color: #032154;
+ }
+ .service .container .row .col-4 p{
+   color: black;
+ }
+ .container .row .link{ 
+    margin-left: 40%;
+   margin-top: 20px;
+ }
+ .container .row .link hr{
+    background-color: #f2db18;
+    width: 95px;
+    margin-top: -13px;
+    margin-left: 135px;
+    cursor: pointer;
+ }
+ .container .row div a {
+    text-decoration: none;
+    color:#f2db18;
+    display: inline-block;
+   margin-top: 30px;
+   font-size: 25px;
+   font-weight: 400;
+ }
+ .profile .profile1 p:nth-of-type(1){
+  color: #f2db18;
+  }
+ .profile .profile1 p{
+   color:black;
+ }
+ .profile .pic{
+   display: flex;
+   justify-content: center;
+   margin-top: 35px;
+ }
+ 
+ .profile .pic .pic1 img{
+    margin-left: 30px;
+ }
+
+ 
